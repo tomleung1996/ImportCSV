@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 
 public class DBConnector {
 	String driverName = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-	String dbURL = "jdbc:sqlserver://localhost:1433;DatabaseName=Project1";
-	String userName = "jg";
-	String userPwd = "jg002";
+	String dbURL = "jdbc:sqlserver://localhost:1433;DatabaseName="; //数据库名
+	String userName = ""; //用户名
+	String userPwd = "";  //密码
 	Connection dbConn;
 	public Connection connect(){
 		try{
